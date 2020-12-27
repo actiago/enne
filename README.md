@@ -1,4 +1,5 @@
 # ENNE
+
 Faça download de suas músicas direto pela linha de comando
 
 O enne é um utilitário via linha de comando escrito em Python3. Sua função primordial é realizar o download de músicas a partir de vídeos do YouTube.
@@ -13,16 +14,17 @@ Para a utilização do programa é necessário ter ter instalado na sua máquina
 - [pip](https://pypi.org/project/pip/)
 - [pafy](https://pypi.org/project/pafy/)
 
-Agora que você instalou todas os pacotes necessários para o funcionamento do programa, clone o repositório em sua máquina [enne](https://github.com/viktorsht/enne.git).  
+Agora que você instalou todos os pacotes necessários para o funcionamento do programa, clone o repositório em sua máquina [enne](https://github.com/viktorsht/enne.git).  
 Pronto, agora você está com todas as ferramentas para baixar suas músicas.  
-
 
 ## UTILIZAÇÃO
 
 Para utilizar o programa é bem simples.
 - Vá ,usando a linha de comando, até o diretório do repositório do programa e digite:
 
+```bsh
   $ python3 enne.py UrlDaMúsica
+```
 
 - O programa salva o nome e o url dos downloads em um arquivo .txt a fim de não realizar repetidos downloads da mesma música.  
 
@@ -36,9 +38,11 @@ Para utilizar o programa é bem simples.
 
 Digite  
 
+```bash
   $ python3 enne.py https://www.youtube.com/watch?v=S-xb1miTjoE
+```
 
-Aparecerá uma mensagem na tela: 'Onde deseja salvar a música?'   
+Aparecerá uma mensagem na tela: 'Onde deseja salvar a música?'  
 
   Ex: Música  
 
@@ -46,11 +50,10 @@ e você baixará a Free Software Song(música do movimento do software livre) no
 
 ## ATUALIZAÇÕES PARA O FUTURO
 
+- [ ] Funções de busca direto do programa.
 
-- Funções de busca direto do programa.
-
-- Virar um pacote para arquiteturas mais comuns.
+- [ ] Virar um pacote para arquiteturas mais comuns.
 
 ## Observações finais
 
-Além de otimizar minhas tarefas e mostrar os resultados dos meus estudos em Python. , este programa é uma forma de mostrar o funcionamento prático da biblioteca Pafy, além de tentar contribuir com a comunidade do Software Livre. Não há intenção alguma de prejudicar pessoas, grupos ou empresas.
+Além de otimizar minhas tarefas e mostrar os resultados dos meus estudos em Python, este programa é uma forma de mostrar o funcionamento prático da biblioteca Pafy, além de tentar contribuir com a comunidade do Software Livre. Não há intenção alguma de prejudicar pessoas, grupos ou empresas.
